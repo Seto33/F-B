@@ -1,0 +1,122 @@
+.artefacts {
+    background: #1d2f30;
+    padding: 60px 0px 57px;
+
+    // .artefacts__container
+
+    &__container {
+        min-height: 550px;
+    }
+
+    // .artefacts__list
+
+    &__list {}
+
+  	
+
+    // .artefacts__items
+
+    &__items {
+        display: flex;
+        flex-direction: column;  
+        max-width: 255px;
+        height: 493px; 
+        border: 1px solid #0b1919;
+    }
+
+    // .artefacts__img
+
+    &__img {
+        position: relative;
+        height: 180px;
+        background: #0b1919;
+    }
+
+    // .artefacts__rating
+
+    &__rating {
+        position: absolute;
+        left: 19px;
+        top: 16px;
+        width: 24px;
+        height: 24px;
+        font-family: var(--second-font-family);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+        color: #899d9d;
+        border-radius: 50%;
+        border: 1px solid #899d9d;
+    }
+
+
+
+    // .artefacts__plant
+
+    &__picture {
+        width: 100%;
+        height: 100%;
+        padding: 30px 16px;
+    }
+
+
+    // .artefacts__content
+
+    &__content {
+       display: flex;
+       flex-direction: column;
+    //    justify-content: space-between;
+       height: 100%;
+       padding: 16px 16px 24px;
+    }
+
+    // .artefacts__title
+
+    &__title {
+        font-family: var(--second-font-family);
+        font-weight: 700;
+        font-size: 24px;
+        font-style: normal;
+        line-height: 100%;
+        color: var(--light-color);
+        margin: 0;
+        margin-bottom: 8px;
+    }
+
+    // .artefacts__text
+
+    &__text {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        margin-top: 8px;
+        color: #899d9d;
+    }
+
+
+
+    // .artefacts__button
+
+    &__button {
+        
+        margin-top: auto;
+        padding: 10px 28px;
+        width: 145px;
+        height: 45px;
+        font-weight: 400;
+        color: var(--middle-color);
+        border: 1px solid var(--middle-color);
+        transition: background-color .5s;
+
+        &:hover {
+            background-color: #91ac46;
+            color: #1d2f30;
+        }
+    }
+
+
+    
+
+}

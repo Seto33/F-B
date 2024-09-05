@@ -1,0 +1,70 @@
+.socials {
+    background: #0b1919;
+    height: 60px;
+
+    // .socials__container
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        // align-items: center;
+    }
+}
+.social {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        gap: 30px;
+        
+      
+        
+
+    // .social__item
+
+    &__item {
+
+        
+       
+        
+    }
+
+    // .social__link
+
+    &__link {
+
+        // .social__link_yt
+
+        &_yt {
+        }
+
+        // .social__link_inst
+
+        &_inst {
+        }
+
+        // .social__link_fb
+
+        &_fb {
+        }
+
+        // .social__link_tw
+
+        &_tw {
+        }
+    }
+
+    // .social__icon
+
+    &__icon {
+        width: 24px;
+        height: 24px;
+        color: #899d9d;
+
+        transition: color 0.5s;
+    
+        &:hover{
+            color: #bae249;
+        }
+        
+    }
+}

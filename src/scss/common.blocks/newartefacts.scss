@@ -1,0 +1,115 @@
+.newartefacts {
+    background: #1d2f30;
+    padding: 0 0 60px 0;
+
+    // .newartefacts__container
+
+    &__container {
+        // min-height: 555px;
+    }
+
+    // .newartefacts__content
+
+    &__content {}
+
+    // .newartefacts__title
+
+
+    // .newartefacts__block
+
+    &__block {
+        display: flex;
+        flex-direction: column;
+        // justify-content: space-between;
+        gap: 30px;
+        margin-top: 30px;
+
+
+
+        @media (min-width: 768px) {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
+
+
+    // .newartefacts__img
+
+    &__img {
+        // max-width: 825px;
+        height: 100%;
+    }
+
+
+
+    &__title {
+        color: var(--light-color);
+        font-family: var(--second-font-family);
+        font-size: 48px;
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    // .newartefacts__images
+
+    &__images {}
+
+    // .newartefacts__descr
+
+    &__descr {
+        // max-width: 255px;
+        background-color: var(--middle-color);
+        padding: 0 16px;
+        @media (min-width: 768px) {
+            max-width: 255px;
+        }
+    }
+
+    // .newartefacts__subtitle
+
+    &__subtitle {
+        font-family: var(--second-font-family);
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 150%;
+        color: #1d2f30;
+    }
+
+    // .newartefacts__text
+
+    &__text {
+        color: #506829;
+    }
+
+
+    // .newartefacts__btn
+
+    &__btn {
+
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 16px;
+        color: #0b1919;
+        padding: 75px 0 25px;
+        transition: color 0.5s;
+
+        &:hover {
+            color: #6a6d6d;
+        }
+    }
+
+    // .newartefacts__icon
+
+    &__icon {
+
+        // left: 122px;
+        // top: 79px;
+        width: 45px;
+        height: 13px;
+
+    }
+
+
+
+}

@@ -1,0 +1,66 @@
+.hero {
+
+
+  // .hero__container
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 550px;
+  }
+
+
+
+  // .hero__content
+
+  &__content {
+    max-width: 690px;
+  }
+
+  // .hero__title
+
+  &__title {
+    margin: 0;
+    margin-bottom: 24px;
+    color: var(--light-color);
+    font-family: var(--second-font-family);
+    @include media-adaptiv-font(60, 48);
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  // .hero__text
+
+  &__text {
+    margin-bottom: 24px;
+  }
+
+  // .hero__btn
+
+  &__btn {
+    
+    color: var(--middle-color);
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    transition: color 0.5s;
+    
+    &:hover{
+      color: #91ac46;
+    }
+  }
+  
+
+  &__icon {
+    width: 45px;
+    height: 13px;
+    
+
+    
+  }
+
+  
+
+
+}
